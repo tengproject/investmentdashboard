@@ -19,9 +19,9 @@ jobs:
                 aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                 aws-region: ${{ secrets.AWS_REGION }}
 
-            - name: Run npm i to install dependencies
-              run: npm install
-              working-directory: /project
+            # - name: Run npm i to install dependencies
+            #   run: npm install
+            #   working-directory: /project
 
             - name: Run unit tests
               run: npm run test
