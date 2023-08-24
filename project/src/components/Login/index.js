@@ -63,7 +63,7 @@ const Login = () => {
 
   return (
     <Container maxWidth='lg' style={{ margin: '20px', textAlign: 'center'}}>
-      <h1>Teng's Portfolio Dashboard</h1>
+      <h1>Teng Portfolio Dashboard</h1>
       <div>
         <TextField
           id="username"
